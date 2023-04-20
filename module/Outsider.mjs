@@ -6,7 +6,7 @@ import { OutsiderActorSheet } from "./sheets/actor-sheet.mjs";
 import { OutsiderItemSheet } from "./sheets/item-sheet.mjs";
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
-import { Outsider } from "./helpers/config.mjs";
+import { OUTSIDER } from "./helpers/config.mjs";
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -16,7 +16,7 @@ Hooks.once('init', async function() {
 
   // Add utility classes to the global game object so that they're more easily
   // accessible in global contexts.
-  game.outsider = {
+  game.OUTSIDER = {
     OutsiderActor,
     OutsiderItem,
     rollItemMacro

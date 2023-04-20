@@ -31,7 +31,7 @@ export class OutsiderActor extends Actor {
   prepareDerivedData() {
     const actorData = this;
     const systemData = actorData.system;
-    const flags = actorData.flags.outsider || {};
+    const flags = actorData.flags.Outsider || {};
 
     // Make separate methods for each Actor type (character, npc, etc.) to keep
     // things organized.
