@@ -1,0 +1,28 @@
+{
+    "Actor": {
+      "types": ["Outsider", "NPC"],
+      "templates": {
+        "base": {
+          "Stress": {
+            "value": 0,
+            "min": 0,
+            "max": 10
+          },
+          "Ward": {
+            "value": 0,
+            "min": 0,
+            "max": 3
+          },
+          "Heart": {
+            "value": 0,
+            "min": 0,
+            "max": 10
+          }
+        }
+      }
+    },
+    "Item": {
+      "types": []
+    }
+  }
+  
