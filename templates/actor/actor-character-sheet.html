@@ -45,7 +45,7 @@
   {{!-- Sheet Tab Navigation --}}
   <nav class="sheet-tabs tabs" data-group="primary">
     {{!-- Default tab is specified in actor-sheet.mjs --}}
-    <a class="item" data-tab="Identity">Identity</a>
+    <a class="item" data-tab="features">Features</a>
     <a class="item" data-tab="description">Description</a>
     <a class="item" data-tab="items">Items</a>
     <a class="item" data-tab="effects">Effects</a>
@@ -54,8 +54,8 @@
   {{!-- Sheet Body --}}
   <section class="sheet-body">
 
-    {{!-- Owned Identity Tab --}}
-    <div class="tab Identity" data-group="primary" data-tab="Identity">
+    {{!-- Owned Features Tab --}}
+    <div class="tab features" data-group="primary" data-tab="features">
       <section class="grid grid-3col">
         <aside class="sidebar">
 
@@ -64,10 +64,10 @@
           from 1 to 12 and will create that number of columns.  --}}
         </aside>
 
-        {{!-- For the main Identity list, span the right two columns --}}
+        {{!-- For the main features list, span the right two columns --}}
         <section class="main grid-span-2">
           {{!-- This is a Handlebars partial. They're stored in the `/parts` folder next to this sheet, and defined in module/helpers/templates.mjs --}}
-          {{> "systems/outsider/templates/actor/parts/actor-Identity.html"}}
+          {{> "systems/outsider/templates/actor/parts/actor-features.html"}}
         </section>
 
       </section>
