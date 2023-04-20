@@ -1,23 +1,23 @@
-export const BOILERPLATE = {};
+export const OUTSIDER = {};
 
 /**
  * The set of Ability Scores used within the sytem.
  * @type {Object}
  */
- BOILERPLATE.abilities = {
-  "str": "BOILERPLATE.AbilityStr",
-  "dex": "BOILERPLATE.AbilityDex",
-  "con": "BOILERPLATE.AbilityCon",
-  "int": "BOILERPLATE.AbilityInt",
-  "wis": "BOILERPLATE.AbilityWis",
-  "cha": "BOILERPLATE.AbilityCha"
+ OUTSIDER.abilities = {
+  "str": "OUTSIDER.AbilityStr",
+  "dex": "OUTSIDER.AbilityDex",
+  "con": "OUTSIDER.AbilityCon",
+  "int": "OUTSIDER.AbilityInt",
+  "wis": "OUTSIDER.AbilityWis",
+  "cha": "OUTSIDER.AbilityCha"
 };
 
-BOILERPLATE.abilityAbbreviations = {
-  "str": "BOILERPLATE.AbilityStrAbbr",
-  "dex": "BOILERPLATE.AbilityDexAbbr",
-  "con": "BOILERPLATE.AbilityConAbbr",
-  "int": "BOILERPLATE.AbilityIntAbbr",
-  "wis": "BOILERPLATE.AbilityWisAbbr",
-  "cha": "BOILERPLATE.AbilityChaAbbr"
+OUTSIDER.abilityAbbreviations = {
+  "str": "OUTSIDER.AbilityStrAbbr",
+  "dex": "OUTSIDER.AbilityDexAbbr",
+  "con": "OUTSIDER.AbilityConAbbr",
+  "int": "OUTSIDER.AbilityIntAbbr",
+  "wis": "OUTSIDER.AbilityWisAbbr",
+  "cha": "OUTSIDER.AbilityChaAbbr"
 };

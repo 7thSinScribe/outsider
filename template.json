@@ -8,7 +8,7 @@
           "min": 0,
           "max": 10
         },
-        "power": {
+        "DV": {
           "value": 5,
           "min": 0,
           "max": 5
@@ -22,26 +22,6 @@
         "level": {
           "value": 1
         }
-      },
-      "abilities": {
-        "str": {
-          "value": 10
-        },
-        "dex": {
-          "value": 10
-        },
-        "con": {
-          "value": 10
-        },
-        "int": {
-          "value": 10
-        },
-        "wis": {
-          "value": 10
-        },
-        "cha": {
-          "value": 10
-        }
       }
     },
     "npc": {
@@ -50,7 +30,7 @@
     }
   },
   "Item": {
-    "types": ["item", "feature", "spell"],
+    "types": ["item", "feature"],
     "templates": {
       "base": {
         "description": ""
@@ -64,10 +44,6 @@
     },
     "feature": {
       "templates": ["base"]
-    },
-    "spell": {
-      "templates": ["base"],
-      "spellLevel": 1
     }
   }
 }
